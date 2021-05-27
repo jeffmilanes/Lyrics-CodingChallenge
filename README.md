@@ -17,7 +17,9 @@
 - [x] Unit Test
 - [x] Integration Test
 
-![App View](https://jeffmilanes.s3-ap-southeast-1.amazonaws.com/integration_test.gif)
+## App Overview 
+Captured During Integration Test
+- [Check the App Overview](https://jeffmilanes.s3-ap-southeast-1.amazonaws.com/integration_test.gif)
 
 
 ## Additional
