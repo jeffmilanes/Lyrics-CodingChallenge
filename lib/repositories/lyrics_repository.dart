@@ -1,8 +1,6 @@
 import 'package:coding_challenge/models/content_header.dart';
 import 'package:coding_challenge/utils/services/lyrics_api_service.dart';
 
-class LyricsRequestFailure implements Exception {}
-
 class LyricsRepo {
   final LyricsApiClient _lyricsApiClient;
 

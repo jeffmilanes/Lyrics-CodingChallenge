@@ -9,7 +9,7 @@ void main() {
 
     testWidgets('App Testing', (tester) async {
       app.main();
-      await tester.pumpAndSettle();
+      await tester.pump(Duration(seconds: 1));
 
       var primaryButton = find.byKey(Key('dark'));
       var secondaryButton = find.byKey(Key('light'));
@@ -50,7 +50,7 @@ void main() {
 
       // click theme selection button
       await tester.tap(floatingButton);
-      await tester.pumpAndSettle();
+      await tester.pump(Duration(seconds: 2));
 
       // click light mode button
       await tester.tap(secondaryButton);

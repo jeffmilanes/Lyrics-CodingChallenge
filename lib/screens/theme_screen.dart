@@ -22,8 +22,9 @@ class _ThemeScreenState extends State<ThemeScreen>
   @override
   void initState() {
     super.initState();
-    _controller = AnimationController(
-        duration: Duration(milliseconds: 2000), vsync: this);
+    _controller =
+        AnimationController(duration: Duration(milliseconds: 2000), vsync: this)
+          ..repeat();
 
     animation = Tween<double>(begin: 0, end: -700).animate(_controller);
   }
